@@ -1,0 +1,1061 @@
+/* <!-- .....................Section header................... --> */
+
+@font-face {
+    font-family: "Raleway-VariableFont" ;
+    src: local("Raleway-VariableFont")
+    url("../font/Raleway-VariableFont_wght.ttf") 
+    format('truetype');
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#icon{
+    display: none;
+}
+nav {
+   
+    border: red solid;
+    display: flex;
+   
+}
+
+ul {
+    width: 100%;
+    border: blue solid;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6px;
+}
+
+li {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+nav p{
+    padding: 15%;
+    font-size: 20px;
+
+}
+.mac{
+   
+    border: green solid;
+   
+
+   height: 700px;
+    background-image: url("../img/mac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: bottom;
+    position: relative;
+   
+    overflow:hidden;
+    
+}
+
+
+
+
+.text {
+    font-size: 60px;
+   
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 20%;
+    
+   
+}
+
+.text2 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 35%;
+   
+}
+
+.text3 {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 45%;
+   
+}
+.text3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.text3 button {
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    padding: 8%;
+    background: rgba(255, 255, 255, 0.541);
+    top: 60%;
+}
+
+.ico{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 94%;
+}
+
+
+/* .....................section About the compagny............ */
+
+.aboutthecompagny{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.space{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.bigicon{
+    border: red solid;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    
+}
+
+.textabout{
+    
+    text-align: center;
+
+width: 25%;
+}
+.textabout i{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.titre{
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.textabout{
+    width: 100%;
+    font-size: 22px;
+    
+}
+
+/* ..........................We know design section...................... */
+
+.greybackground{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+    
+}
+
+.greybackground h1 {
+position: relative;
+top: 300px;
+margin-left: 30px;
+}
+
+.greybackground p {
+    position: relative;
+    top: 320px;
+    margin-left: 30px;
+    white-space: pre;
+    }
+    
+    .greybackground button {
+        position: relative;
+        top: 20px;
+        
+        border: none;
+        color: white;
+        background: black;
+        padding: 10px;
+        font-size: 20px;
+        }
+
+        .greybackground img{
+            float: right;
+            position: relative;
+            top: 150px;
+            margin-right: 45px;
+            border-radius: 10px;
+        }
+
+        /* ..................................section the team.......................... */
+
+        .archipart{
+            font-size: 20px;
+            margin-top:200px;
+            text-align: center;
+        }
+
+        .archipart p{
+            margin-top: 20px;
+        }
+
+        .team1 {
+            position: relative;
+            display: inline-block;
+            width: 23%;
+            margin-right: 1%;
+            -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+            box-shadow: 1px 2px 13px 0px #000000;
+            
+            
+        }
+        
+        .team2 {
+            position: relative;
+            display: inline-block;
+            width: 23%;
+            margin-right: 1%;
+            margin-left: 1%;
+            -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+            box-shadow: 1px 2px 13px 0px #000000;
+        }
+        
+        .team4 {
+            position: relative;
+            display: inline-block;
+            width: 23%;
+            margin-right: 0%;
+            margin-left: 1%;
+            -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+            box-shadow: 1px 2px 13px 0px #000000;
+        }
+        
+        .team3 {
+            position: relative;
+            display: inline-block;
+            width: 23%;
+            margin-right: 1%;
+            margin-left: 1%;
+            -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+            box-shadow: 1px 2px 13px 0px #000000;
+        }
+        
+        
+        .team1 img,
+        .team2 img,
+        .team3 img,
+        .team4 img {
+            display: inline-block;
+            width: 100%;
+            
+        
+        
+        }
+.lateam{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+
+.dude {
+    background: rgba(182, 182, 182, 0.253);
+    width: 90%;
+    margin-left: 20px;
+    color: rgb(0, 0, 0) solid;
+    height: 30px;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.dude a{
+    text-decoration: none;
+    color: black;
+}
+.mot1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mot2{
+    
+    color: #737373;
+    margin-left: 20px;
+}
+
+
+.mot{
+    margin-left: 20px;}
+
+
+    .statique{
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        /* justify-content: space-between; */
+        background-color: rgb(72, 70, 70);
+        color: aliceblue;
+    }
+    .statique .info{
+        width: 24%;
+        padding: 80px;
+        box-sizing: border-box;
+    }
+
+    .statique p{
+        margin-top: 20px;
+    }
+
+    /* ......................section Our Work ..................... */
+
+
+    .work{
+        font-size: 20px;
+        margin-top:100px;
+        text-align: center;
+    }
+
+    .work p{
+        margin-top: 20px;
+    }
+
+    .pictures{
+        margin-top: 100px;
+        border: blue solid;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+
+    .pictures img{
+        width: 100%;
+    }
+
+      .picture1 , .picture2 , .picture3 , .picture4 , 
+    .picture5 , .picture6 , .picture7 , .picture8   {
+/*         
+        display: inline-block;
+width: 10%; */
+
+height: 8%;
+width: 24%;
+display: inline-block;
+
+margin-top: 20px;
+
+
+
+
+        
+      
+    }  
+
+    .picture2 , .picture3 , .picture4 , 
+    .picture6 , .picture7 , .picture8 {
+        margin-left: 20px;
+        
+    }
+
+
+    /* .............................Section Our Skills................................. */
+
+.skill{
+    margin-top: 100px;
+    background: #F1F1F1;
+    width: 100%;
+    height: 50vh;
+  
+    
+
+}
+
+.skill p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    white-space: pre;
+
+}
+.skill h1 { 
+    margin-left: 40px;
+    font-size: 30px;
+    padding-top: 150px;
+}
+
+.droite{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 250px;
+    
+    
+}
+.progress{
+    
+    width:50%;
+    padding: 20px;
+    
+    
+}
+.progress .message{
+    text-align: center;
+}
+.progress .info{
+    letter-spacing: 10px;
+    margin: 15px 0;
+} 
+.progressbar{ color: white;
+    width: 80%;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(188, 197, 204);
+}
+.progressbar .bar{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(72, 70, 70);
+}
+.progressbar .bar2 {
+    width: 85%;
+    height: 20px;
+    background-color: rgb(72, 70, 70);
+}
+.progressbar .bar3 {
+    width: 75%;
+    height: 20px;
+    background-color: rgb(72, 70, 70);
+}
+
+/* .....................................Section Pricing............................. */
+
+.price{
+    background: grey;
+    height: 140vh;
+}
+
+
+.prix {
+    font-size: 50px;
+    text-align: center;
+}
+
+.choose {
+    text-align: center;
+    font-size: 20px;
+}
+
+ .tab {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  
+
+
+} 
+
+.black{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.red{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+.miaou {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    
+    background-color: white;
+
+     border: #F44336 solid; 
+    
+
+}
+
+
+.miaouss {
+    display: inline-block;
+    position: relative;
+    width: 35%;
+   background-color: white;
+  bottom: 100px;
+  border: #F44336 solid; 
+  
+    
+
+}
+
+.list {
+    text-align: center;
+    border: #DDDDDD solid;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    font-size: large;
+    
+    position: relative;
+    right: 40px;
+    
+    width: 99%;
+}
+
+.listgrey {
+   
+    font-size: 30px;
+    color: white;
+   
+    padding-top: 25px;
+    text-align: center;
+    
+
+
+}
+
+.listred {
+    
+   
+    font-size: 30px;
+    color: white;
+    padding: 2%;
+    padding-top: 30px;
+    text-align: center;
+
+
+
+}
+
+.listdown button {
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+   
+    width: 20%;
+
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    border: none;
+
+}
+
+.listdown {
+    position: relative;
+    right: 40px;
+    width: 99%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F1F1F1;
+    border: rgba(0, 0, 0, 0) solid;
+    
+
+}
+
+.listred2 {
+    
+    font-size: 30px;
+   
+    width: 100%;
+    position: relative;
+    right: 40px;
+    text-align: center;
+    color: #000000;
+    border: #DDDDDD solid;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.listgrey2 {
+    width: 99%;
+    position: relative;
+    right: 40px;
+    font-size: 50px;
+    color: #000000;
+bottom: 20px;
+    text-align: center;
+    border: #DDDDDD solid;
+    border-left: none;
+    border-right: none;
+    
+
+
+
+}
+
+#permonth{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 40px;
+}
+
+.month{
+    white-space: pre;
+color: #666666;
+font-size:20px ;
+}
+
+
+
+/* .........................Section contact........................ */
+
+#contact {
+    
+    width: 97%;
+    margin: auto;
+    padding: 0;
+    /* margin-left: 45px; */
+}
+
+#about {
+    width: 90%;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+}
+
+input {
+    width: 96%;
+    padding: 4px;
+    vertical-align: top;
+}
+
+.sub button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 7%;
+   
+    
+    text-align: center;
+    border: none;
+}
+
+.contacter{
+    background:#F1F1F1  ;
+    margin-bottom: 150px;
+    height: 1900px;
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont h1{
+    padding-bottom: 20px;
+}
+
+.cont p{
+    padding-bottom: 20px;
+}
+
+.formulaire{
+    padding-bottom: 20px;
+}
+
+#contact img{
+    padding-top: 45px;
+    width: 100%;
+}
+
+
+
+
+/* ............................section footer........................ */
+
+.fin{
+    background: #000000;
+    width: 100%;
+    height: 200px;
+
+position: relative;
+top: 3370px;
+}
+
+.top{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.top button{
+    margin-top: 40px;
+    background: white;
+    color: #666666;
+    width: 150px;
+    height: 35px;
+    border: none;
+}
+
+.lesicons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.power{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* .......................section Format Téléphone....................... */
+
+@media screen and (max-width:576px){
+    /* .....................Section header................... */
+ul{
+    display: none;
+}
+
+nav p{
+    padding: 15%;
+    font-size: 20px;
+
+}
+.mac{
+   width: 98%;
+    border: green solid;
+   
+
+   height: 400px;
+    background-image: url("../img/mac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-position: bottom;
+    position: relative;
+   
+    overflow:hidden;
+    
+}
+
+
+
+
+.text {
+    font-size: 30px;
+    line-height:40px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 14%;
+    
+   
+}
+
+.text2 {
+    width: 70%;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 40%;
+    line-height:30px;
+}
+
+.text3 {
+    width: 20px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 60%;
+   
+}
+.text3 a{
+    width: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.text3 button {
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    padding: 8%;
+    background: rgba(255, 255, 255, 0.541);
+    
+}
+
+.ico{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 90%;
+}
+
+
+/* .....................section About the compagny............ */
+
+.aboutthecompagny{
+    margin-top: 140px;
+    text-align: center;
+    
+}
+
+.space{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.bigicon{
+    width: 98%;
+    border: red solid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 40px;
+    
+    
+}
+
+.textabout{
+    
+    text-align: center;
+
+
+}
+.textabout i{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.titre{
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+
+.textabout{
+    width: 100%;
+    font-size: 22px;
+    
+}
+
+/* ..........................We know design section...................... */
+
+.greybackground{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 150vh;
+    font-size: 20px;
+    
+}
+
+.greybackground h1 {
+position: relative;
+top: 300px;
+margin-left: 30px;
+}
+
+.greybackground p {
+    display: inline-block;
+    position: relative;
+    top: 320px;
+    font-size: 15px;
+    width: 100%;
+    
+    
+
+    }
+    
+    .greybackground button {
+        position: relative;
+        top: 20px;
+        
+        border: none;
+        color: white;
+        background: black;
+        padding: 10px;
+        font-size: 15px;
+        }
+
+        .greybackground img{
+            width: 90%;
+            position: relative;
+            top: 400px;
+            left: 30px;
+            border-radius: 10px;
+        }
+
+/* ..................................section the team.......................... */
+
+.archipart{
+    font-size: 20px;
+    margin-top:200px;
+    text-align: center;
+}
+
+.archipart p{
+    margin-top: 20px;
+}
+
+.team1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+    -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+    box-shadow: 1px 2px 13px 0px #000000;
+    margin-bottom: 20px;
+    
+    
+}
+
+.team2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+    box-shadow: 1px 2px 13px 0px #000000;
+    margin-bottom: 20px;
+}
+
+.team4 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+    
+    -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+    box-shadow: 1px 2px 13px 0px #000000;
+    margin-bottom: 20px;
+}
+
+.team3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-right: 1%;
+    margin-left: 1%;
+    -webkit-box-shadow: 1px 2px 13px 0px #000000; 
+    box-shadow: 1px 2px 13px 0px #000000;
+}
+.lateam{
+
+margin-top: 100px;
+margin-bottom: 200px;
+}
+
+
+
+.dude {
+background: rgba(182, 182, 182, 0.253);
+width: 90%;
+margin-left: 20px;
+color: rgb(0, 0, 0) solid;
+height: 30px;
+text-align: center;
+padding-top: 2%;
+
+}
+
+.dude a{
+text-decoration: none;
+color: black;
+}
+.mot1{
+margin-top: 20px;
+margin-left: 20px;
+}
+.mot2{
+
+color: #737373;
+margin-left: 20px;
+}
+
+
+.mot{
+margin-left: 20px;}
+
+
+.statique{
+font-size: 25px;
+text-align: center;
+display: flex;
+/* justify-content: space-between; */
+background-color: rgb(72, 70, 70);
+color: aliceblue;
+}
+.statique .info{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+height: 1000px;
+
+box-sizing: border-box;
+
+}
+
+.info{
+    display: flex;
+flex-direction: column;
+}
+
+.statique p{
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
